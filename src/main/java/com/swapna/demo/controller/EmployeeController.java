@@ -4,22 +4,16 @@ import java.io.File;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.MediaType;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.multipart.MultipartFile;
 
 import com.swapna.demo.model.Employee;
 import com.swapna.demo.model.MyFile;
 import com.swapna.demo.service.EmployeeService;
-import org.springframework.web.bind.annotation.*;
-
-import static org.springframework.http.MediaType.*;
 
 
 
